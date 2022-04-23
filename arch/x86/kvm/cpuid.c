@@ -1443,25 +1443,11 @@ int kvm_emulate_cpuid(struct kvm_vcpu *vcpu)
 {
 	u32 eax, ebx, ecx, edx;
 
-	if (cpuid_fault_enabled(vcpu) && !kvm_require_cpl(vcpu, 0))
-		return 1;
+	if (cpuid_fault_enabled(vcpu) && !kvm_require_cpl(vcpu, 0))	return 1;
 
 	eax = kvm_rax_read(vcpu);
 	ecx = kvm_rcx_read(vcpu);
 	kvm_cpuid(vcpu, &eax, &ebx, &ecx, &edx, false);
-	if (eax == 0x4fffffff) {
-		eax = arch_atomic_read(&number_of_exits);
-		printk(KERN_INFO "Number of exits:%u",eax);
-
-	} else if (eax == 0x4ffffffe){
-		printk (KERN_INFO "CPUID(0x4FFFFFFE), exit number =");
-		ebx = (atomic64_read(&time_taken) >> 32);
-		printk (KERN_INFO "Higher 32-bits-EBX %u",ebx);
-		ecx = atomic64_read(&time_taken);
-		printk(KERN_INFO "Lower 32-bits-ECX %u",ecx);
-	} else {
-		kvm_cpuid(vcpu, &eax, &ebx, &ecx, &edx, false);
-	}
 	kvm_rax_write(vcpu, eax);
 	kvm_rbx_write(vcpu, ebx);
 	kvm_rcx_write(vcpu, ecx);
