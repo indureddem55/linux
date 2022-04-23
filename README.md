@@ -1,12 +1,12 @@
-CMPE283 Assignment 1
+# CMPE283 Assignment 1
 
 To create a Linux kernel module that will query various MSRs to determine virtualization features available in your CPU. This module will report (via the system message log) the features it discovers.
 
-Functionality to Implement
+### Functionality to Implement
 Read the VMX configuration MSRs to ascertain support capabilities/features ◦Entry / Exit / Procbased / Secondary Procbased / Pinbased controls
 For each group of controls above, interpret and output the values read from the MSR to the system via printk(..), including if the value can be set or cleared.
 
-Followed the below mention steps to achieve the above said functionality:
+## Followed the below mention steps to achieve the above said functionality:
 
 * Downloaded and Installed the lastest version(16.2.3) of VMWare workstation on windows system.
 
