@@ -6,12 +6,12 @@ Team Members:
 ## Assignment 2:  
   
 Modify the CPUID emulation code in KVM to report back additional information when special CPUID leaf nodes are requested.
-• For CPUID leaf node %eax=0x4FFFFFFF:
+- For CPUID leaf node %eax=0x4FFFFFFF:
 ◦Return the total number of exits (all types) in %eax
-• For CPUID leaf node %eax=0x4FFFFFFE:
+- For CPUID leaf node %eax=0x4FFFFFFE:
 ◦Return the high 32 bits of the total time spent processing all exits in %ebx
 ◦Return the low 32 bits of the total time spent processing all exits in %ecx
-▪%ebx and %ecx return values are measured in processor cycles, across all VCPUs  
+-%ebx and %ecx return values are measured in processor cycles, across all VCPUs  
 
 ## Question: 
 ### 1. For each member in your team, provide 1 paragraph detailing what parts of the lab that member implemented / researched. 
