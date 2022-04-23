@@ -18,11 +18,11 @@ Modify the CPUID emulation code in KVM to report back additional information whe
 
 ### Work by Monica(015219711):
 Started working on this assignment once the assignement1 is done. Have researched on how to build the kernel and found the resources.
-Started buidling the kernel and edited the cupid.c and vmx.c files for the CPUID: 0x4fffffff
+Started buidling the kernel and edited the cpuid.c and vmx.c files for the CPUID: 0x4fffffff
 
 ### Work by Manasa(015945527):
 Started working on this assignment once the assignement1 is done. Resolved the encountered errors while building the kernel. 
-Edited the cupid.c and vmx.c files for the CPUID: 0x4ffffffe
+Edited the cpuid.c and vmx.c files for the CPUID: 0x4ffffffe
 
 ### 2. Describe in detail the steps you used to complete the assignment. 
 
