@@ -18,12 +18,13 @@ via printk(..), including if the value can be set or cleared.
 ### 1. For each member in your team, provide 1 paragraph detailing what parts of the lab that member implemented / researched. 
 
 ### Work by Monica(015219711):
-Gone through the assignment1 video and the recordings related to assignment1. Added the cmpe283-1.c file. Followed the other steps and tested the output by running the dmesg command.
+Gone through the assignment1 video and the recordings related to assignment1. Added the cmpe283-1.c file. 
+Downloaded and Intsalled VmWare workstation. Invoked the insmod and rmmod commands. Followed the other steps and tested the output by running the dmesg command.
 
 
 ### Work by Manasa(015945527):
 Gone through the assignment1 video and the recordings related to assignment1. Added the Makefile file.
-Resolved the errors that were encountered during the process. Followed the other steps and tested the output by running the dmesg command.
+Resolved the errors that were encountered during the process. Installed the Ubuntu Operting system on Virtual Machine. Followed the other steps and tested the output by running the dmesg command.
 
 
 ## The following procedure describes the steps followed to develop and test the kernel module:
