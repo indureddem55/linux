@@ -1,7 +1,7 @@
 # CMPE 283 Assignment 2  
-Team Members: 
- Monica Lakshmi Mandapati - 015219711
- Manasa Bobba - 015945527
+- Team Members: 
+- Monica Lakshmi Mandapati - 015219711
+- Manasa Bobba - 015945527
 
 ## Assignment 2:  
   
