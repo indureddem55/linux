@@ -38,5 +38,5 @@ Similarly, when the module is removed with rmmod, module_exit macro will be invo
 > dmesg
 
 10) Here is the image of the output:
-11) 
+
 ![WhatsApp Image 2022-04-22 at 5 21 13 PM](https://user-images.githubusercontent.com/91310893/164838048-1e5098a0-cf88-4951-bd92-8e25d7efaa5e.jpeg)
