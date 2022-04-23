@@ -1438,6 +1438,9 @@ bool kvm_cpuid(struct kvm_vcpu *vcpu, u32 *eax, u32 *ebx,
 	return exact;
 }
 EXPORT_SYMBOL_GPL(kvm_cpuid);
+EXPORT_SYMBOL(Number_of_exits);
+EXPORT_SYMBOL(timetaken);
+
 
 int kvm_emulate_cpuid(struct kvm_vcpu *vcpu)
 {
