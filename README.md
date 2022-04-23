@@ -38,5 +38,7 @@ dmesg
 
 * Here is the image of the output:
 
+![WhatsApp Image 2022-04-22 at 10 13 11 PM (1)](https://user-images.githubusercontent.com/48903573/164878987-28cb7751-fb6c-48b2-9be2-d31711dce334.jpeg)
+![WhatsApp Image 2022-04-22 at 10 13 11 PM](https://user-images.githubusercontent.com/48903573/164878989-ad875ccb-ca85-4649-bdaa-c80e135490f6.jpeg)
 
 
