@@ -1443,7 +1443,7 @@ atomic_t total_exists = ATOMIC_INIT(0);
 atomic64_t time_taken = ATOMIC_INIT(0);
 
 
-EXPORT_SYMBOL(total_exists);
+EXPORT_SYMBOL(total_exits);
 EXPORT_SYMBOL(time_taken);
 
 int kvm_emulate_cpuid(struct kvm_vcpu *vcpu)
@@ -1457,7 +1457,7 @@ int kvm_emulate_cpuid(struct kvm_vcpu *vcpu)
 	ecx = kvm_rcx_read(vcpu);
 	
 	if (eax == 0x4fffffff) {
-		eax = arch_atomic_read(&total_exists);
+		eax = arch_atomic_read(&total_exits);
 		printk(KERN_INFO "Number of exits:%u",eax);
 		
 	} else if (eax == 0x4ffffffe){
