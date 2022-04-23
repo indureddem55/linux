@@ -16,7 +16,7 @@ Modify the CPUID emulation code in KVM to report back additional information whe
 ## Question: 
 ### 1. For each member in your team, provide 1 paragraph detailing what parts of the lab that member implemented / researched. 
 
-## prerequisite 
+## Prerequisite 
 Once Assignment 1 was finished, started working on this project.
 
 ### Work by Ananya:
