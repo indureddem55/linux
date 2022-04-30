@@ -59,11 +59,12 @@ Installed Ubuntu Desktop and connected this to the previously installed nested V
 ### Output 
 1. Output when eax = 0x4FFFFFFD:
 
-![Screenshot (2)](https://user-images.githubusercontent.com/48903573/166091124-58cfbb6f-07e1-493a-9653-a6a6efe619de.png)
+![Screenshot (8)](https://user-images.githubusercontent.com/48903573/166091658-609b2d53-10eb-4d17-8db7-35219bce1654.png)
+
 
 2. Output when eax=0x4FFFFFFC:
 
-![Screenshot (3)](https://user-images.githubusercontent.com/48903573/166091157-7531c237-b9fd-4ad1-968e-d65951061ab9.png)
+![Screenshot (9)](https://user-images.githubusercontent.com/48903573/166091663-9324d383-7a57-4a5d-8495-2bad80cfaf2f.png)
 
 ### 3. Comment on the frequency of exits – does the number of exits increase at a stable rate? Or are there more exits performed during certain VM operations? Approximately how many exits does a full VM boot entail?
 We have observed that there was increase in count at a stable rate. The maximum exit count is 285643.
