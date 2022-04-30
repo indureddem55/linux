@@ -3,7 +3,7 @@
 - Monica Lakshmi Mandapati - 015219711
 - Manasa Bobba - 015945527
 
-## Assignment 2:  
+## Assignment 3:  
   
 Modify the CPUID emulation code in KVM to report back additional information when special CPUID leaf nodes are requested.
 - For CPUID leaf node %eax=0x4FFFFFFD:
