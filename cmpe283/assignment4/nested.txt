@@ -1,5 +1,5 @@
-[10903.960907] CPUID(0x4ffffffd), exit number=0 exits=15039
-[10903.962707] CPUID(0x4ffffffd), exit number=0 exits=15039
+[10903.960907] CPUID(0x4ffffffd), exit number=0 exits=14231
+[10903.962707] CPUID(0x4ffffffd), exit number=0 exits=14231
 [10903.968307] CPUID(0x4ffffffd), exit number=1 exits=0
 [10903.970254] CPUID(0x4ffffffd), exit number=1 exits=0
 [10903.975591] CPUID(0x4ffffffd), exit number=2 exits=0
@@ -18,8 +18,8 @@
 [10904.028543] CPUID(0x4ffffffd), exit number=8 exits=0
 [10904.033050] CPUID(0x4ffffffd), exit number=9 exits=0
 [10904.034628] CPUID(0x4ffffffd), exit number=9 exits=0
-[10904.039164] CPUID(0x4ffffffd), exit number=10 exits=32786
-[10904.047243] CPUID(0x4ffffffd), exit number=10 exits=32786
+[10904.039164] CPUID(0x4ffffffd), exit number=10 exits=28978
+[10904.047243] CPUID(0x4ffffffd), exit number=10 exits=28978
 [10904.053293] exit reason number =11 not enabled in KVM
 [10904.054854] exit reason number =11 not enabled in KVM
 [10904.059591] CPUID(0x4ffffffd), exit number=12 exits=0
@@ -52,14 +52,14 @@
 [10904.150069] CPUID(0x4ffffffd), exit number=25 exits=0
 [10904.154616] CPUID(0x4ffffffd), exit number=26 exits=0
 [10904.156227] CPUID(0x4ffffffd), exit number=26 exits=0
-[10904.167945] CPUID(0x4ffffffd), exit number=27 exits=156786
-[10904.169669] CPUID(0x4ffffffd), exit number=27 exits=156786
+[10904.167945] CPUID(0x4ffffffd), exit number=27 exits=156574
+[10904.169669] CPUID(0x4ffffffd), exit number=27 exits=156574
 [10904.174173] CPUID(0x4ffffffd), exit number=28 exits=4
 [10904.175729] CPUID(0x4ffffffd), exit number=28 exits=4
-[10904.180458] CPUID(0x4ffffffd), exit number=29 exits=187456
-[10904.182912] CPUID(0x4ffffffd), exit number=29 exits=187456
-[10904.187544] CPUID(0x4ffffffd), exit number=30 exits=14567
-[10904.189310] CPUID(0x4ffffffd), exit number=30 exits=14567
+[10904.180458] CPUID(0x4ffffffd), exit number=29 exits=182378
+[10904.182912] CPUID(0x4ffffffd), exit number=29 exits=182378
+[10904.187544] CPUID(0x4ffffffd), exit number=30 exits=14789
+[10904.189310] CPUID(0x4ffffffd), exit number=30 exits=14789
 [10904.193874] CPUID(0x4ffffffd), exit number=31 exits=0
 [10904.195431] CPUID(0x4ffffffd), exit number=31 exits=0
 [10904.193874] CPUID(0x4ffffffd), exit number=32 exits=0
@@ -94,8 +94,8 @@
 [10904.285168] CPUID(0x4ffffffd), exit number=46 exits=6
 [10904.289609] CPUID(0x4ffffffd), exit number=47 exits=2
 [10904.291152] CPUID(0x4ffffffd), exit number=47 exits=2
-[10904.295612] CPUID(0x4ffffffd), exit number=48 exits=383853
-[10904.297531] CPUID(0x4ffffffd), exit number=48 exits=383853
+[10904.295612] CPUID(0x4ffffffd), exit number=48 exits=387867
+[10904.297531] CPUID(0x4ffffffd), exit number=48 exits=387867
 [10904.302782] CPUID(0x4ffffffd), exit number=49 exits=0
 [10904.304413] CPUID(0x4ffffffd), exit number=49 exits=0
 [10904.308946] CPUID(0x4ffffffd), exit number=50 exits=0
